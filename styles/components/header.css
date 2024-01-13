@@ -56,11 +56,13 @@ section {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 32px;
+    text-align: center;
 }
 
 .pmp-desc {
     color: white;
     font-size: 14px;
+    text-align: center;
 }
 
 .left-col {
