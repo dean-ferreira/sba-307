@@ -98,6 +98,14 @@ select {
     text-decoration: underline;
 }
 
+select {
+    height: 3em;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 100%;
+}
+
 /* xs */
 @media (min-width: 475px) {
     .form-container {
