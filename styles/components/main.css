@@ -87,6 +87,17 @@ select {
     transition: background-color 0.2s ease;
 }
 
+#register-link {
+    color: rgba(0, 0, 0, 0.574);
+    font-size: 0.97em;
+    padding-top: 1em;
+}
+
+#register-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 /* xs */
 @media (min-width: 475px) {
     .form-container {
