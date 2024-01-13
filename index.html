@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <nav>
-            <a href="./index.html">
-                <p>Project Management Platform</p>
+            <a id="home-link" href="./index.html">
+                <img style="height: 3em;" src="./icons/aficons/operationg.png" alt="pmp logo">
+                <p class="home-text">Project MP</p>
             </a>
             <ul>
                 <li><a href="">Log In</a></li>
@@ -20,10 +22,13 @@
             </ul>
         </nav>
         <section>
-            <h1>Project Management Platform</h1>
-            <p>Solution designed to help teams plan, organize, and execute projects.</p>
-            <a href=""><button>Sign Up</button></a>
-            <img src="" alt="project management platform demo">
+            <div class="left-col">
+                <h1 class="pmp-title">Project Management Platform</h1>
+                <p class="pmp-desc">Solution designed to help teams plan, organize, and execute projects.</p>
+                <a href=""><button>Sign Up</button></a>
+            </div>
+            <div class="right-col"><img id="pmp-demo" src="https://media4.giphy.com/media/7jtU9sxHNLZuv8HZCa/giphy.gif"
+                    alt="project management platform demo"></div>
         </section>
     </header>
     <main>
