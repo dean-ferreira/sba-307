@@ -63,6 +63,8 @@ section {
     color: white;
     font-size: 14px;
     text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .left-col {
