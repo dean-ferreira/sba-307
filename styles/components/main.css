@@ -36,3 +36,7 @@ main h2 {
     height: 160px;
     transition: transform 0.3s;
 }
+
+.feature-img:hover {
+    transform: translateY(-20px);
+}
