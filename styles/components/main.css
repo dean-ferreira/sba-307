@@ -13,6 +13,7 @@ main h2 {
     columns: #1f2937;
 }
 
+/* Features */
 .feature-container {
     display: flex;
     justify-content: center;
@@ -40,4 +41,76 @@ main h2 {
 
 .feature-img:hover {
     transform: translateY(-20px);
+}
+
+/* Forms */
+.form-container {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    padding: 3em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 1em;
+    width: 10em;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input,
+select {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.form-btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 75%;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .form-container {
+        width: 20em;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .form-container {
+        width: 30em;
+    }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+    .form-container {
+        width: 50em;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .form-container {
+        width: 70em;
+    }
 }
