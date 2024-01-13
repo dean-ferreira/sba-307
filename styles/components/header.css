@@ -100,3 +100,28 @@ section button {
 #pmp-demo {
     height: 20em;
 }
+
+/* sm */
+@media (min-width: 640px) {
+    nav {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+
+    section {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10em;
+    }
+
+    #pmp-gif {
+        height: 25em;
+    }
+}
