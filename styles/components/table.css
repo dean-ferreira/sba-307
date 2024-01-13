@@ -1,0 +1,118 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em;
+}
+
+/* Feature Table */
+.features-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    text-shadow: 0 1px 0 #fff;
+    color: #2a2a2a;
+    background: #fafafa;
+    background-image: linear-gradient(top, #fff, #eaeaea, #fff);
+    border-radius: 1em;
+}
+
+.features-table td {
+    height: 1em;
+    line-height: 3em;
+    border-bottom: 1px solid #cdcdcd;
+    box-shadow: 0 1px 0 white;
+    text-align: center;
+}
+
+
+/* Body */
+.features-table tbody td {
+    text-align: center;
+}
+
+.features-table td:nth-child(2),
+.features-table td:nth-child(3) {
+    background: #efefef;
+    background: rgba(144, 144, 144, 0.15);
+    border-right: 1px solid white;
+}
+
+.features-table td:nth-child(4) {
+    background: #e7f3d4;
+    background: rgba(184, 243, 85, 0.3);
+}
+
+.features-table thead td {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top: 1px solid #eaeaea;
+}
+
+.features-table thead td:first-child {
+    border-top: none;
+}
+
+.features-table tfoot td {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 1px solid #dadada;
+}
+
+.features-table tfoot td:first-child {
+    border-bottom: none;
+}
+
+.pmp-table td:nth-child(2) {
+    background: #e7f3d4;
+    background: rgba(184, 243, 85, 0.3);
+}
+
+.desktop-view {
+    display: none;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.sliding-icon {
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+}
+
+/* xs */
+@media (max-width: 639px) {
+    .desktop-view {
+        display: none;
+    }
+}
+
+/* sm */
+@media (min-width: 640px) {
+    .mobile-view {
+        display: none;
+    }
+
+    .desktop-view {
+        display: inline;
+    }
+
+    .features-table td {
+        white-space: nowrap;
+    }
+
+    .features-table tbody td {
+        width: 10em;
+    }
+}
