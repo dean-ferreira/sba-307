@@ -7,7 +7,7 @@ footer {
     align-items: center;
     padding: 2em 0;
     bottom: 0;
-    position: absolute;
+    position: relative;
     padding-left: inherit;
     padding-right: inherit;
     left: 0;

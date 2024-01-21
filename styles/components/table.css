@@ -73,7 +73,7 @@
 
 @keyframes slideInRight {
     from {
-        transform: translateX(1000px);
+        transform: translateX(600px);
     }
 
     to {
