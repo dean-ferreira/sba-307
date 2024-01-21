@@ -6,4 +6,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 2em 0;
+    bottom: 0;
+    position: absolute;
+    padding-left: inherit;
+    padding-right: inherit;
+    left: 0;
+    right: 0;
 }
